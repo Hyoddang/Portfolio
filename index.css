@@ -5,3 +5,101 @@
   font-style: normal;
 }
 
+/* 웹 문서 기본작성 CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: block;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+}
+
+.menu-bar .logo a {
+  font-family: 'TAEBAEKfont';
+  color: white;
+}
+
+.menu-bar ul li a {
+  font-family: 'TAEBAEKfont';
+  color: white;
+}
+
+.menu-bar {
+  display: flex;
+  position: relative;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #303030;
+}
+
+.menu-bar ul {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.menu-bar ul li {
+  font-family: 'TAEBAEKfont';
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100%;
+}
+
+.menu ul :hover {
+  background-color: #676769;
+}
+
+i {
+  font-size: 30px;
+}
+
+.icon {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.icon a {
+  font-family: 'TAEBAEKfont';
+  color: white;
+}
+
+.icon ul li :hover {
+  color: #676769;
+}
+/* 
+.github-link {
+  width: 100px;
+  height: auto;
+}
+
+.notion-link {
+  width: 100px;
+  height: auto;
+}
+
+.github-link :hover, .notion-link :hover {
+  color: #676769;
+} */
+
