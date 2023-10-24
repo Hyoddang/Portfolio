@@ -16,6 +16,10 @@ ul, li {
   list-style: none;
 }
 
+body {
+  background-color: #505050;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -88,18 +92,91 @@ i {
 .icon ul li :hover {
   color: #676769;
 }
-/* 
-.github-link {
-  width: 100px;
+
+/* 메인 부분 */
+
+main {
+  display: block;
+  width: 100%;
   height: auto;
+  margin: 100px auto;
 }
 
-.notion-link {
-  width: 100px;
-  height: auto;
+.information {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.github-link :hover, .notion-link :hover {
-  color: #676769;
-} */
+.buisness-card {
+  width: 900px;
+  height: 500px;
+  background-color: #ececec;
+  box-shadow: 2px 2px 20px 0.1px black;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-around;
+}
 
+.picture {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+}
+
+.picture img {
+  width: 300px;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.contact {
+  display: flex;
+  width: 55%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'TAEBAEKfont';
+
+}
+
+.contact ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contact ul li {
+  width: 100%;
+  display: flex;
+  margin: 5px 0px;
+}
+
+.contact ul li i {
+  display: block;
+  margin-right: 3px;
+  justify-content: center;
+  align-content: center;
+  font-size: 28px;
+}
+
+
+.contact ul li p {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  justify-content: flex-start;
+}
+
+.contact ul li span {
+  text-align: center;
+}
