@@ -157,26 +157,24 @@ main {
   width: 100%;
   display: flex;
   margin: 5px 0px;
+  align-items: center;
 }
 
 .contact ul li i {
   display: block;
   margin-right: 3px;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
   font-size: 28px;
+  box-sizing: border-box;
+  width: 40px;
+  height: 30px;
 }
 
 
-.contact ul li p {
+.contact ul li .text {
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
   padding-left: 80px;
   justify-content: flex-start;
 }
 
-.contact ul li span {
-  text-align: center;
-}
